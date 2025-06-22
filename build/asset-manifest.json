@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc75d253.css",
+    "main.js": "/static/js/main.6e3d76c6.js",
+    "static/media/bannerImg.png": "/static/media/bannerImg.99ca01a6d530bfe16f45.png",
+    "static/media/workImgEight.jpg": "/static/media/workImgEight.863efcb32ba563410bd6.jpg",
+    "static/media/workImgSeven.jpg": "/static/media/workImgSeven.b607849747fc53f9a1c1.jpg",
+    "static/media/workImgThree.jpg": "/static/media/workImgThree.f617087bdf72ace764ea.jpg",
+    "static/media/workImgFive.jpg": "/static/media/workImgFive.7e88cef06bfeb0835605.jpg",
+    "static/media/workImgTwo.jpg": "/static/media/workImgTwo.7433873bf3c337c65ffc.jpg",
+    "static/media/workImgSix.jpg": "/static/media/workImgSix.d899a4337fada00f42a3.jpg",
+    "static/media/workImgFour.jpg": "/static/media/workImgFour.10ddd9b44b0d0802f131.jpg",
+    "static/media/blogImgOne.jpg": "/static/media/blogImgOne.a49c0711b3657270c30d.jpg",
+    "static/media/blogImgThree.jpg": "/static/media/blogImgThree.020cf6588ec70e316c6a.jpg",
+    "static/media/blogImgTwo.jpg": "/static/media/blogImgTwo.6aed37cec2695c32850c.jpg",
+    "static/media/workImgOne.jpg": "/static/media/workImgOne.294921da5954189699c7.jpg",
+    "static/media/Priyanka_Kumari.pdf": "/static/media/Priyanka_Kumari.1a7212338381990a3767.pdf",
+    "index.html": "/index.html",
+    "main.cc75d253.css.map": "/static/css/main.cc75d253.css.map",
+    "main.6e3d76c6.js.map": "/static/js/main.6e3d76c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc75d253.css",
+    "static/js/main.6e3d76c6.js"
+  ]
+}
