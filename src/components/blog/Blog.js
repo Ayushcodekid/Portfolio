@@ -11,8 +11,8 @@ const Blog = () => {
         <div className="px-6">
           <BlogCard
             image={blogImgOne}
-            title="Project Spotlight: LinkedIn AI Reply Extension"
-            subTitle="A Chrome extension that automates LinkedIn replies using AI."
+            title="Project Spotlight: AI Chatbot"
+            subTitle="A journey into the world of AI-powered chatbots."
             category="Projects"
           />
           <BlogCard
@@ -25,8 +25,8 @@ const Blog = () => {
         <div className="px-6">
           <BlogCard
             image={blogImgThree}
-            title="Why I Built a Web Scraper with Python"
-            subTitle="A beginner-friendly way to extract data from websites."
+            title="Why I Built a Task Master App"
+            subTitle="A beginner-friendly way to manage tasks."
             category="Projects"
           />
           <BlogCard

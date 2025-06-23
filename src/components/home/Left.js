@@ -30,7 +30,7 @@ const Left = () => {
     <div className="w-full lgl:w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShwdow z-10">
       <div className="w-full h-3/5 flex justify-center items-center">
         <img
-          className="w-11/12 h-4/5 object-cover rounded-2xl mx-auto mt-2"
+          className="w-11/12 h-6/5 object-cover rounded-2xl mx-auto mt-[35%]"
           src={bannerImg}
           loading="priority"
           alt="bannerImage"
