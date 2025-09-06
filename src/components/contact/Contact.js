@@ -16,10 +16,9 @@ const Contact = () => {
   const [seuccessMsg, setSuccessMsg] = useState("");
   // ================= Email Validation Start here ===============
   const EmailValidation = (email) => {
-    return String(email)
-      .toLowerCase()
-      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
-  };
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email).toLowerCase());
+};
+
   // ================= Email Validation End here =================
 
   const handleName = (e) => {
@@ -51,7 +50,7 @@ const Contact = () => {
       setErrMessage(true);
     }
     if (clientName && email && EmailValidation(email) && messages) {
-      axios.post("https://getform.io/f/e18ee560-5133-4cfe-9a48-eddb6f012a9f", {
+      axios.post("https://getform.io/f/azyggkob", {
         name: clientName,
         email: email,
         message: messages,

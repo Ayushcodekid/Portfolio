@@ -11,7 +11,7 @@ const Education = () => {
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Experience" icon={<MdWork />} />
         <ResumeCard
-          badge="11/2024 – Present"
+          badge="11/2024 – 05/2025"
           title="Software Developer"
           subTitle="Connect 2 Construct"
           des="Designed and deployed a high-performance cross-platform mobile application using React Native. Developed secure AWS S3 file management and real-time communication via WebSockets."

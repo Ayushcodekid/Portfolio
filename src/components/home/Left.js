@@ -5,7 +5,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { SiYoutubemusic } from "react-icons/si";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
-import CV from "../../assets/Ayush_Dhiman_Resume.pdf";
 import { bannerImg } from "../../assets/index";
 import Contact from "../contact/Contact"; // Adjust import path as needed
 
@@ -39,7 +38,9 @@ const Left = () => {
 
       <div className="w-full h-2/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl">
         <div className="flex flex-col items-center gap-2 py-10">
-          <h1 className="text-textColor text-4xl font-semibold">Ayush Dhiman</h1>
+          <h1 className="text-textColor text-4xl font-semibold">
+            Ayush Dhiman
+          </h1>
           <p className="text-base text-designColor tracking-wide">
             {text}
             <Cursor cursorBlinking="false" cursorStyle="|" />
@@ -72,10 +73,10 @@ const Left = () => {
 
         <div className="flex h-14">
           <a
-            href={CV}
+            href="/Ayush_Dhiman_Resume.pdf"
             target="_blank"
-            className="w-1/2 border-t-[1px] borderRight border-t-zinc-800 text-sm tracking-wide uppercase gap-2 hover:text-designColor duration-300"
             rel="noreferrer"
+            className="w-1/2 border-t-[1px] borderRight border-t-zinc-800 text-sm tracking-wide uppercase gap-2 hover:text-designColor duration-300"
           >
             <button className="w-full h-full flex justify-center items-center gap-2">
               Download CV <BsCloudLightningFill />
@@ -99,26 +100,3 @@ const Left = () => {
 };
 
 export default Left;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

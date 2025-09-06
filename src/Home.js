@@ -187,7 +187,7 @@ const Home = () => {
         {/* ======================== Home Left Start here ============================ */}
         <Left />
         {/* ======================== Home Left End here ============================== */}
-        <div className="w-full lgl:w-8/12 h-[95%] bg-bodyColor rounded-2xl flex justify-center items-center">
+        <div className="w-full lgl:w-8/12 h-[95%] bg-bodyColor rounded-2xl flex justify-center items-center ml-5">
           {/* ======================== Smaller device content Start ======================== */}
           <div className="w-full h-full lgl:hidden bg-transparent rounded-2xl flex flex-col gap-6">
             <About />
