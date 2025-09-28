@@ -13,7 +13,7 @@ const Education = () => {
         <ResumeCard
           badge="11/2024 – 05/2025"
           title="Software Developer"
-          subTitle="Connect 2 Construct"
+          subTitle="Connect 2 Construct (Subsidiary of Space Energy Systems)"
           des="Designed and deployed a high-performance cross-platform mobile application using React Native. Developed secure AWS S3 file management and real-time communication via WebSockets."
         />
         <ResumeCard
