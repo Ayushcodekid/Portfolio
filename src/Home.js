@@ -56,7 +56,7 @@ const Home = () => {
                 initial={{ x: -500, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="w-full h-full bg-bodyColor overflow-y-scroll scrollbar-thin scrollbar-thumb-[#646464]"
+                className="w-full h-full bg-bodyColor overflow-y-scroll scrollbar-thin scrollbar-thumb-[#646464] scrollbar-none"
               >
                 <Sidenav />
                 <span
@@ -197,7 +197,7 @@ const Home = () => {
             <Contact />
           </div>
           {/* ======================== Smaller device content End ========================== */}
-          <div className="w-full h-[96%] hidden lgl:flex justify-center overflow-y-scroll scrollbar-thin scrollbar-thumb-[#646464]">
+          <div className="w-full h-[96%] hidden lgl:flex justify-center overflow-y-scroll scrollbar-thin scrollbar-thumb-[#646464] scrollbar-none">
             {about && (
               <motion.div
                 initial={{ opacity: 0 }}
