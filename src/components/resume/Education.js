@@ -11,17 +11,24 @@ const Education = () => {
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Experience" icon={<MdWork />} />
         <ResumeCard
-          badge="11/2024 – 05/2025"
-          title="Software Developer"
-          subTitle="Connect 2 Construct (Subsidiary of Space Energy Systems)"
-          des="Designed and deployed a high-performance cross-platform mobile application using React Native. Developed secure AWS S3 file management and real-time communication via WebSockets."
+          badge="08/2025 – Present"
+          title="Software Engineer"
+          subTitle="Gmware"
+          des="Built reliable data extraction pipelines by combining web scraping and direct API integration for structured product and pricing data. Improved pipeline stability by identifying internal network APIs via traffic analysis, reducing DOM dependency. Automated data processing and normalization in Python, using LLMs to enhance parsing accuracy and validation."
         />
+
         <ResumeCard
+          badge="03/2024 – 05/2025"
+          title="Software Developer"
+          subTitle="Space Energy Systems"
+          des="Delivered scalable mobile and web applications using React Native and React.js, optimized for performance and user experience. Integrated secure AWS S3 storage and real-time WebSocket communication to support live features. Contributed to building reliable, production-ready systems used in real-world environments."
+        />
+        {/* <ResumeCard
           badge="03/2024 – 10/2024"
           title="Full Stack Developer Intern"
           subTitle="Space Energy Systems"
           des="Developed a secure web app with authentication and scalable backend. Implemented RBAC, reducing security incidents by 40%, and built a file system using AWS S3 and pre-signed URLs to boost efficiency by 35%."
-        />
+        /> */}
       </div>
 
       {/* Vertical Divider */}

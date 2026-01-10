@@ -16,7 +16,7 @@ const ResumeCard = ({ badge, title, subTitle, des }) => {
         {title}
       </h2>
       <p className="text-sm text-[#999] -mt-2">{subTitle}</p>
-      <p className="text-base text-[#999] font-medium pr-10">{des}</p>
+      <p className="text-base text-[#999] font-medium">{des}</p>
     </div>
   );
 };
